@@ -816,7 +816,7 @@ public class ChargingControlController extends LineageHealthFeature {
                             .setContentText(message)
                             .setContentIntent(mainPendingIntent)
                             .setSmallIcon(R.drawable.ic_charging_control)
-                            .setOngoing(true)
+                            .setAutoCancel(true)
                             .addAction(R.drawable.ic_charging_control,
                                     mContext.getString(
                                             R.string.charging_control_notification_cancel_once),
